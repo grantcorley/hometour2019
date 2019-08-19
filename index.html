@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Schoolbell&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+
+      body{
+        background-color: #FBB03A;
+        display:flex;
+        flex-direction: column;
+        padding:0 !important;
+      }
+
+     
+
+      .flower{
+          width:80%;
+          height:auto;
+          margin:0 auto;
+      }
+
+
+      .ground{
+        font-family: 'Schoolbell', cursive;
+        background-color: #482D7D;
+        width:100%;
+        min-height: 200px;
+        color:white;
+        text-align: center;
+        padding:1em;
+      }
+
+      h2 {
+        color:#FBB03A;
+      }
+
+      .ground span{
+        color: #FBB03A;
+      }
+
+      p.benefits{
+        font-size: .7em;
+      }
+
+      button{
+        margin: .5em 0 1em 0;
+        padding: .5em 1em !important;
+        font-size: 1.4em !important;
+      }
+
+
+     </style> 
+
+    <title>Patterson Park Home Tour 2019, Baltimore</title>
+  </head>
+  <body>
+
+   <!--
+      https://squareup.com/store/ppna/
+   -->
+
+
+        <img loading="lazy" class="flower" src="images/homeTour_illustration.svg" alt="Patterson Park Home Tour illustration">
+
+        <div class="ground">
+          <h2>Sunday, September 29, 2019<br/>
+          11am - 4pm</h2>
+
+          <button type="button" class="btn btn-light">Get Tickets</button>
+
+          <p>$12 presale <span>&#8226;</span> $15 day of tour</p>
+
+          <p>Last ticket sold at 3pm.<br/>
+          Check in at corner of E. Baltimore St. &amp; N. Linwood Ave.</p>
+          <p class="benefits">All proceeds benefit the Patterson Park Neighborhood Association.</p>
+         </div><!--end ground--> 
+
+    
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script>
+
+      const myURL = 'https://squareup.com/store/ppna/item/home-tour-day-of-ticket'
+      
+      const button = document.getElementsByTagName("button")[0];
+      button.addEventListener("click", onButtonClick);
+
+      function onButtonClick(){
+          window.open(myURL,'_blank');
+      }
+
+
+    </script>
+
+  </body>
+</html>
