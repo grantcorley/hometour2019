@@ -1,0 +1,43 @@
+ body{
+        background-color: #FBB03A;
+        display:flex;
+        flex-direction: column;
+        padding:0 !important;
+      }
+
+
+
+      .flower{
+          width:80%;
+          height:auto;
+          margin:0 auto;
+      }
+
+
+      .ground{
+        font-family: 'Schoolbell', cursive;
+        background-color: #482D7D;
+        width:100%;
+        min-height: 200px;
+        color:white;
+        text-align: center;
+        padding:1em;
+      }
+
+      h2 {
+        color:#FBB03A;
+      }
+
+      .ground span{
+        color: #FBB03A;
+      }
+
+      p.benefits{
+        font-size: .7em;
+      }
+
+      button{
+        margin: .5em 0 1em 0;
+        padding: .5em 1em !important;
+        font-size: 1.4em !important;
+      }
